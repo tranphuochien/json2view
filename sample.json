@@ -1,0 +1,440 @@
+{
+  "widget": "android.widget.RelativeLayout",
+  "properties": [
+    {
+      "value": "root_rl",
+      "type": "ref",
+      "name": "id"
+    },
+    {
+      "value": "match_parent",
+      "type": "dimen",
+      "name": "layout_width"
+    },
+    {
+      "value": "match_parent",
+      "type": "dimen",
+      "name": "layout_height"
+    },
+    {
+      "value": "@color/bg_ci",
+      "type": "color_ref",
+      "name": "background"
+    }
+  ],
+  "views": [
+    {
+      "widget": "android.widget.LinearLayout",
+      "properties": [
+        {
+          "value": "promotion_cash_back_ll_content",
+          "type": "ref",
+          "name": "id"
+        },
+        {
+          "value": "match_parent",
+          "type": "dimen",
+          "name": "layout_width"
+        },
+        {
+          "value": "wrap_content",
+          "type": "dimen",
+          "name": "layout_height"
+        },
+        {
+          "value": "true",
+          "type": "BOOLEAN",
+          "name": "layout_alignParentBottom"
+        },
+        {
+          "value": "@color/white",
+          "type": "color_ref",
+          "name": "background"
+        },
+        {
+          "value": "center_horizontal",
+          "type": "string",
+          "name": "gravity"
+        },
+        {
+          "value": "vertical",
+          "type": "string",
+          "name": "orientation"
+        }
+      ],
+      "views": [
+        {
+          "views": [],
+          "properties": [
+            {
+              "value": "promotion_cash_back_tv_title",
+              "type": "ref",
+              "name": "id"
+            },
+            {
+              "value": "wrap_content",
+              "type": "dimen",
+              "name": "layout_width"
+            },
+            {
+              "value": "wrap_content",
+              "type": "dimen",
+              "name": "layout_height"
+            },
+            {
+              "value": "35dp",
+              "type": "dimen",
+              "name": "layout_marginTop"
+            },
+            {
+              "value": "true",
+              "type": "boolean",
+              "name": "textAllCaps"
+            },
+            {
+              "value": "#ff5237",
+              "type": "color",
+              "name": "textColor"
+            },
+            {
+              "value": "17sp",
+              "type": "dimen",
+              "name": "textSize"
+            }
+          ],
+          "widget": "TextView"
+        },
+        {
+          "views": [
+            {
+              "views": [],
+              "properties": [
+                {
+                  "value": "promotion_cash_back_iv_fire_popup",
+                  "type": "ref",
+                  "name": "id"
+                },
+                {
+                  "value": "wrap_content",
+                  "type": "dimen",
+                  "name": "layout_width"
+                },
+                {
+                  "value": "wrap_content",
+                  "type": "dimen",
+                  "name": "layout_height"
+                },
+                {
+                  "value": "true",
+                  "type": "BOOLEAN",
+                  "name": "layout_centerInParent"
+                }
+              ],
+              "widget": "com.facebook.drawee.view.SimpleDraweeView"
+            },
+            {
+              "views": [],
+              "properties": [
+                {
+                  "value": "promotion_cash_back_tv_amount",
+                  "type": "ref",
+                  "name": "id"
+                },
+                {
+                  "value": "wrap_content",
+                  "type": "dimen",
+                  "name": "layout_width"
+                },
+                {
+                  "value": "wrap_content",
+                  "type": "dimen",
+                  "name": "layout_height"
+                },
+                {
+                  "value": "true",
+                  "type": "BOOLEAN",
+                  "name": "layout_centerHorizontal"
+                },
+                {
+                  "value": "30dp",
+                  "type": "dimen",
+                  "name": "layout_marginTop"
+                },
+                {
+                  "value": "#fc393d",
+                  "type": "color",
+                  "name": "textColor"
+                },
+                {
+                  "value": "@dimen/textsize.huge",
+                  "type": "ref",
+                  "name": "textSize"
+                },
+                {
+                  "value": "bold",
+                  "type": "string",
+                  "name": "textStyle"
+                }
+              ],
+              "widget": "TextView"
+            },
+            {
+              "views": [],
+              "properties": [
+                {
+                  "value": "currency_unit_tv",
+                  "type": "ref",
+                  "name": "id"
+                },
+                {
+                  "value": "wrap_content",
+                  "type": "dimen",
+                  "name": "layout_width"
+                },
+                {
+                  "value": "wrap_content",
+                  "type": "dimen",
+                  "name": "layout_height"
+                },
+                {
+                  "value": "promotion_cash_back_tv_amount",
+                  "type": "ref",
+                  "name": "layout_alignBottom"
+                },
+                {
+                  "value": "8dp",
+                  "type": "dimen",
+                  "name": "layout_marginBottom"
+                },
+                {
+                  "value": "6dp",
+                  "type": "dimen",
+                  "name": "layout_marginLeft"
+                },
+                {
+                  "value": "promotion_cash_back_tv_amount",
+                  "type": "ref",
+                  "name": "layout_toRightOf"
+                },
+                {
+                  "value": "@string/vnd",
+                  "type": "ref",
+                  "name": "text"
+                },
+                {
+                  "value": "#fc393d",
+                  "type": "color",
+                  "name": "textColor"
+                },
+                {
+                  "value": "@dimen/textsize.small",
+                  "type": "ref",
+                  "name": "textSize"
+                }
+              ],
+              "widget": "TextView"
+            }
+          ],
+          "properties": [
+            {
+              "value": "match_parent",
+              "type": "dimen",
+              "name": "layout_width"
+            },
+            {
+              "value": "wrap_content",
+              "type": "dimen",
+              "name": "layout_height"
+            }
+          ],
+          "widget": "RelativeLayout"
+        },
+        {
+          "views": [],
+          "properties": [
+            {
+              "value": "promotion_cash_back_tv_campaign",
+              "type": "ref",
+              "name": "id"
+            },
+            {
+              "value": "wrap_content",
+              "type": "dimen",
+              "name": "layout_width"
+            },
+            {
+              "value": "wrap_content",
+              "type": "dimen",
+              "name": "layout_height"
+            },
+            {
+              "value": "-8dp",
+              "type": "dimen",
+              "name": "layout_marginTop"
+            },
+            {
+              "value": "center_horizontal",
+              "type": "string",
+              "name": "gravity"
+            },
+            {
+              "value": "4dp",
+              "type": "string",
+              "name": "lineSpacingExtra"
+            },
+            {
+              "value": "@color/c_text_black",
+              "type": "color_ref",
+              "name": "textColor"
+            }
+          ],
+          "widget": "TextView"
+        },
+        {
+          "views": [],
+          "properties": [
+            {
+              "value": "promotion_cash_back_tv_action",
+              "type": "ref",
+              "name": "id"
+            },
+            {
+              "value": "vn.zalopay.promotion.popup.cashback.CashBackRender|onClickCashBackAction",
+              "type" : "string",
+              "name" : "onclick"
+            },
+            {
+              "value": "180dp",
+              "type": "dimen",
+              "name": "layout_width"
+            },
+            {
+              "value": "45dp",
+              "type": "dimen",
+              "name": "layout_height"
+            },
+            {
+              "value": "10dp",
+              "type": "dimen",
+              "name": "layout_marginTop"
+            },
+            {
+              "value": "@drawable/bg_btn_submit_promotion_cash_back_selector",
+              "type": "ref",
+              "name": "background"
+            },
+            {
+              "value": "center",
+              "type": "string",
+              "name": "gravity"
+            },
+            {
+              "value": "@color/white",
+              "type": "color_ref",
+              "name": "textColor"
+            },
+            {
+              "value": "17sp",
+              "type": "dimen",
+              "name": "textSize"
+            }
+          ],
+          "widget": "TextView"
+        },
+        {
+          "views": [],
+          "properties": [
+            {
+              "value": "promotion_cash_back_tv_share",
+              "type": "ref",
+              "name": "id"
+            },
+            {
+              "value": "wrap_content",
+              "type": "dimen",
+              "name": "layout_width"
+            },
+            {
+              "value": "wrap_content",
+              "type": "dimen",
+              "name": "layout_height"
+            },
+            {
+              "value": "5dp",
+              "type": "dimen",
+              "name": "layout_marginBottom"
+            },
+            {
+              "value": "5dp",
+              "type": "dimen",
+              "name": "layout_marginTop"
+            },
+            {
+              "value": "10dp",
+              "type": "dimen",
+              "name": "padding"
+            },
+            {
+              "value": "@string/share",
+              "type": "ref",
+              "name": "text"
+            },
+            {
+              "value": "@color/text_green",
+              "type": "color_ref",
+              "name": "textColor"
+            },
+            {
+              "value": "17sp",
+              "type": "dimen",
+              "name": "textSize"
+            }
+          ],
+          "widget": "TextView"
+        }
+      ]
+    },
+    {
+      "widget": "com.facebook.drawee.view.SimpleDraweeView",
+      "properties": [
+        {
+          "value": "promotion_cash_back_iv_top",
+          "type": "ref",
+          "name": "id"
+        },
+        {
+          "value": "vn.zalopay.promotion.popup.cashback.CashBackMappingEvent|onClickCashBackTopIcon",
+          "type" : "string",
+          "name" : "onclick"
+        },
+        {
+          "value": "wrap_content",
+          "type": "dimen",
+          "name": "layout_width"
+        },
+        {
+          "value": "wrap_content",
+          "type": "dimen",
+          "name": "layout_height"
+        },
+        {
+          "value": "promotion_cash_back_ll_content",
+          "type": "ref",
+          "name": "layout_above"
+        },
+        {
+          "value": "true",
+          "type": "BOOLEAN",
+          "name": "layout_centerHorizontal"
+        },
+        {
+          "value": "-30dp",
+          "type": "dimen",
+          "name": "layout_marginBottom"
+        }
+      ],
+      "views": []
+
+    }
+  ]
+}
